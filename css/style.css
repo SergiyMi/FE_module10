@@ -35,7 +35,7 @@ html {
   clear: both;
 }
 
-/* ===========================header========================== */
+/* ===========================fluid for header========================== */
 
 .container-fluid {
   position: relative;
@@ -93,6 +93,8 @@ html {
   bottom: 0;
   z-index: -9;
 }
+
+/* =============================header========================== */
 
 .container {
   min-height: 1000px;
@@ -209,6 +211,8 @@ html {
   margin-top: 0;
   margin-bottom: 90px;
 }
+
+/* ========================header button============================ */
 
 .btn_wrp {
   padding-bottom: 232px;
@@ -583,6 +587,8 @@ html {
   color: pink;
 }
 
+/* ============================form======================= */
+
 form {
   font-size: 0;
   vertical-align: middle;
@@ -644,6 +650,8 @@ input::placeholder {
   font-style: italic;
   font-size: 15px;
 }
+
+/* ============================media============================= */
 
 @media (min-width: 320px) and (max-width: 960px) {
   .header__subtitle {
